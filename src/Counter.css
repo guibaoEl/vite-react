@@ -1,0 +1,54 @@
+/* Container for the counter */
+.counter {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Align items at the top */
+    gap: 15px; /* Reduced gap for a tighter layout */
+    height: 150px; /* Increased height for a more spacious design */
+    padding: 20px; /* Added padding around the container */
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Styling for the count display */
+.count-holder {
+    font-size: 36px; /* Larger font for a more prominent count */
+    padding: 15px 25px; /* More padding for a balanced look */
+    font-weight: 600; /* Semi-bold font for a professional feel */
+    background: #2a3d66; /* Dark blue background */
+    color: #ffffff; /* White text for contrast */
+    margin: 0;
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px; /* Larger padding for better click targets */
+    font-size: 18px; /* Slightly larger font for buttons */
+    margin: 8px 5px; /* More balanced margin between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #5c6bc0; /* Soft purple background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slight rounding for modern look */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #3f4f7f; /* Darker shade of purple on hover */
+}
+
+/* App container */
+.App {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center everything horizontally */
+    justify-content: center;
+    height: 50vh; /* Full height to center vertically */
+    width: 500px;
+    background-color: #f0f4f8; /* Soft light background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+}
